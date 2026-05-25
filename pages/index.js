@@ -23,12 +23,9 @@ export default function Home() {
           <Image src="/logo.svg" alt="güle cunda" width={160} height={160} />
         </div>
 
-        <h1 className="mt-8 text-4xl font-semibold">güle cunda</h1>
-        <p className="mt-2 text-gray-600">Apple tarzı modern arayüz — otel yönetim paneli</p>
-
         {!session && (
           <div className="mt-8">
-            <button onClick={() => signIn('google')} className="px-5 py-3 bg-black text-white rounded-full">Google ile Giriş Yap</button>
+            <button onClick={() => signIn('google')} className="px-6 py-3 bg-black text-white rounded-full">Google ile Giriş Yap</button>
           </div>
         )}
 
@@ -43,7 +40,7 @@ export default function Home() {
         )}
       </main>
 
-      <Dock />
+      {session && <Dock />}
     </div>
   )
 }
