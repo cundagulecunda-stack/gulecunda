@@ -20,7 +20,7 @@ export default function Home() {
           </div>
           <div>
             {!session ? (
-              <button className="btn" onClick={() => signIn('google')}>Google ile Giriş</button>
+              <button className="btn" onClick={() => signIn('google', { callbackUrl: '/dashboard', prompt: 'select_account' })}>Google ile Giriş</button>
             ) : (
               <button className="btn" onClick={() => signOut()}>Çıkış</button>
             )}
