@@ -12,7 +12,7 @@
     "react": "18.2.0",
     "react-dom": "18.2.0",
     "next-auth": "^4.22.1",
-    "googleapis": "^119.0.0",
+    "googleapis": "^172.0.0",
     "date-fns": "^2.30.0"
   }
 }
