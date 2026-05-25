@@ -1,0 +1,18 @@
+{
+  "name": "gule-cunda-dashboard",
+  "version": "0.1.0",
+  "private": true,
+  "scripts": {
+    "dev": "next dev",
+    "build": "next build",
+    "start": "next start"
+  },
+  "dependencies": {
+    "next": "13.5.4",
+    "react": "18.2.0",
+    "react-dom": "18.2.0",
+    "next-auth": "^4.22.1",
+    "googleapis": "^119.0.0",
+    "date-fns": "^2.30.0"
+  }
+}
